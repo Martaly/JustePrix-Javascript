@@ -1,0 +1,73 @@
+html, body {
+    background-color: #232020;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   font-family: monospace;
+  }
+  .container{
+    padding: 3em; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    width: 50em;
+  }
+  header {
+    color: #ff7315;
+    text-align: center;
+    font-size: 3em;
+    padding:1em;
+  }
+  
+  input{
+      width:45em;
+      height:2em;
+      padding:1em;
+      border-radius: 10px;
+      border:none;
+  }
+  button{
+      height:2em;
+      width:10em;
+      background-color: #ff7315;
+      border-radius: 5px;
+      border:none;
+      margin-top:1em;
+  }
+  small{
+      color: burlywood;
+      font-size: larger;
+  }
+  #instructions {
+    color: white;
+  }
+  
+  .instruction {
+    padding: 15px;
+    margin: 10px 0;
+  }
+  
+  .plus {
+    background-color: #f67280;
+    width:45em;
+    height:1em;
+    border-radius: 10px;
+    border:none;
+  }
+  
+  .moins {
+    background-color: #ffa372;
+    width:45em;
+    height:1em;
+    border-radius: 10px;
+    border:none;
+  }
+  
+  .fini {
+    background-color : #0c9463;
+    width:45em;
+    height:1em;
+    border-radius: 10px;
+    border:none;
+  } 
